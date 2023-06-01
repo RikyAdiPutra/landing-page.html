@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Montserrat:wght@600;700&display=swap");
+
+body {
+  background-color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1085px;
+  margin: 0 auto;
+}
+
+#logo {
+  font-family: "Dela Gothic One", cursive;
+  font-size: 20px;
+  color: #000;
+  text-decoration: none;
+}
+
+.header .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .left {
+  display: flex;
+  align-items: center;
+}
+
+.header .content ul {
+  display: flex;
+  border-left: #e0e0e0 solid 1px;
+  margin-left: 30px;
+}
+
+.header .content ul li {
+  list-style: none;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.header .content ul li a {
+  color: #757575;
+  text-decoration: none;
+  display: block;
+  padding: 0 15px;
+}
+
+.header .content ul li a:hover {
+  color: black;
+}
+
+.profilepicture {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: #757575;
+}
+
+.signout {
+  font-weight: 700;
+  color: #000;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.mainbanner {
+  background: #f6f5f4;
+  width: 100%;
+  min-height: 300px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.mainbanner .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.mainbanner .left {
+  width: 50%;
+  color: #757575;
+}
+
+.mainbanner .right {
+  width: 50%;
+}
+
+.mainbanner h4 {
+  color: #2b788b;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+.btn {
+  background: #c3dce3;
+  border-radius: 100px;
+  padding: 14px 22px;
+  color: #2b788b;
+  text-decoration: none;
+}
+
+.mainbanner h1 {
+  font-family: "Dela Gothic One", cursive;
+  font-size: 56px;
+  line-height: 120%;
+  color: #000;
+}
+
+.mainbanner p {
+  margin-bottom: 50px;
+}
+.mainbanner .boxinfo {
+  display: flex;
+  margin-top: 50px;
+}
+
+.mainbanner .itembox .top {
+  font-family: "Dela Gothic One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  color: #000;
+}
+
+.mainbanner .itembox {
+  padding-right: 50px;
+}
+
+.mainbanner .itembox:first-child {
+  border-right: #e0e0e0 solid 1px;
+  margin-right: 50px;
+}
+
+.mainbanner .itembox label {
+  display: block;
+  width: 100%;
+}
+
+.mainbanner .itembox span {
+  color: #2b788b;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container .left h1 {
+  font-family: "Dela Gothic One";
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 100%;
+}
+
+.container .left p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  line-height: 140%;
+  margin-bottom: 34px;
+}
+
+.left .btn2 {
+  background-color: #c3dce3;
+  border-radius: 100px;
+  padding: 14px 22px;
+  text-decoration: none;
+  color: #2b788b;
+}
